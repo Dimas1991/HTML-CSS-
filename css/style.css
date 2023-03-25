@@ -1,0 +1,71 @@
+
+
+body {
+	 font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+} 
+
+div{
+	font-size: 50px;
+	color: #ff0000;
+	font-family: cursive;
+}
+
+p {
+  animation-duration: 20s;
+  animation-name: slidein;
+  animation-direction: alternate;
+}
+
+p {
+  color: #006400;
+	font-style: italic;
+	font-weight: bold;
+	text-overflow:  2px 2px 5px #F5F5DC;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+span {
+  font-size: 34px;
+  font-weight: normal;
+  text-shadow: 1px 1px white,
+               2px 2px #777;
+  color: #FFA500;
+  transition: all 1s;
+  }
+
+span:hover {
+    text-shadow: 21px 32px green,
+                 2px 2px #FFD700;
+    color: #228B22;
+    }
+
+    ul {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  overflow: hidden;
+  text-shadow: 0 0 tomato,
+               0 0 yellowgreen,
+               0 0 skyblue;
+  color: transparent;
+  transition: all 1s;
+  }
+ul:hover {
+    text-shadow: -400px 0 tomato,
+                 400px 0 yellowgreen,
+                 0 0 skyblue;
+
+a {
+    font-size: medium;
+}
